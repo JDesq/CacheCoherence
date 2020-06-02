@@ -1,0 +1,245 @@
+Jun 02, 2020 11:49:41 AM app.Log newInfo
+INFO: Prueba
+Jun 02, 2020 11:49:41 AM app.Log newInfo
+INFO: Cache L1 de: P0-1
+Block||Coherence||Mem.Address||Data
+0||I||null||null
+1||I||null||null
+Jun 02, 2020 11:49:41 AM app.Log newInfo
+INFO: New instruction: P0,1,READ,0111
+Jun 02, 2020 11:49:41 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||0000
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||0000
+0111||null||0000
+1000||null||0000
+1001||null||0000
+1010||null||0000
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1||0000
+
+Jun 02, 2020 11:49:43 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||0000
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||0000
+0111||null||0000
+1000||null||0000
+1001||null||0000
+1010||null||0000
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1||0000
+
+Jun 02, 2020 11:49:45 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||0000
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||0000
+0111||null||0000
+1000||null||0000
+1001||null||0000
+1010||null||0000
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1,P0||0923
+
+Jun 02, 2020 11:49:54 AM app.Log newInfo
+INFO: READ operation on L1: P0 - 1
+Jun 02, 2020 11:49:54 AM app.Log newInfo
+INFO: No data on L1: P0 - 1
+Jun 02, 2020 11:49:54 AM app.Log newInfo
+INFO: Search data on L2 from: P0 - 1
+Jun 02, 2020 11:49:54 AM app.Log newInfo
+INFO: L2: Data from: P0 - 1 not found.
+Jun 02, 2020 11:49:54 AM app.Log newInfo
+INFO: MEMORY: Search data: P0 - 1
+Jun 02, 2020 11:49:54 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||0000
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||0000
+0111||null||0000
+1000||null||0000
+1001||null||0000
+1010||null||0000
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1,P0||0923
+
+Jun 02, 2020 11:49:54 AM app.Log newInfo
+INFO: L2: WRITE data from: P0 - 1
+Jun 02, 2020 11:49:54 AM app.Log newInfo
+INFO: L2: WRITE data from: P0 - 1
+Jun 02, 2020 11:49:55 AM app.Log newInfo
+INFO: Update with the data read on L1: P0 - 1
+Jun 02, 2020 11:49:55 AM app.Log newInfo
+INFO: READ operation w success on: P0 - 1
+Jun 02, 2020 11:49:55 AM app.Log newInfo
+INFO: Cache L1 de: P0-1
+Block||Coherence||Mem.Address||Data
+0||I||null||null
+1||S||0111||0000
+Jun 02, 2020 11:49:55 AM app.Log newInfo
+INFO: New instruction: P0,1,WRITE,1010,8dc6
+Jun 02, 2020 11:49:55 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||0000
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||0000
+0111||null||0000
+1000||null||0000
+1001||null||0000
+1010||null||c980
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1,P0||0923
+
+Jun 02, 2020 11:50:07 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||0000
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||0000
+0111||null||0000
+1000||null||0000
+1001||null||0000
+1010||null||c980
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1,P0||0923
+
+Jun 02, 2020 11:50:08 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||0000
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||5dd4
+0111||null||0000
+1000||null||0000
+1001||null||0000
+1010||null||c980
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1,P0||0923
+
+Jun 02, 2020 11:50:17 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||0000
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||5dd4
+0111||null||0000
+1000||null||8287
+1001||null||0000
+1010||null||c980
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1,P0||0923
+
+Jun 02, 2020 11:50:29 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||711b
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||5dd4
+0111||null||0000
+1000||null||8287
+1001||null||0000
+1010||null||c980
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1,P0||0923
+
+Jun 02, 2020 11:50:38 AM app.Log newInfo
+INFO: WRITE operation on L1: P0 - 1
+Jun 02, 2020 11:50:38 AM app.Log newInfo
+INFO: Main Memory:
+Block||Owner||Data
+0000||null||711b
+0001||null||0000
+0010||null||0000
+0011||null||0000
+0100||null||0000
+0101||null||0000
+0110||null||5dd4
+0111||null||0000
+1000||null||8287
+1001||null||0000
+1010||null||8dc6
+1011||null||0000
+1100||null||0000
+1101||null||0000
+1110||null||0000
+1111||P1,P0||0923
+
+Jun 02, 2020 11:50:47 AM app.Log newInfo
+INFO: WRITE operation on L1: P0 - 1: SUCCESS
+Jun 02, 2020 11:50:47 AM app.Log newInfo
+INFO: Cache L1 de: P0-1
+Block||Coherence||Mem.Address||Data
+0||M||1010||8dc6
+1||S||0111||0000
+Jun 02, 2020 11:50:47 AM app.Log newInfo
+INFO: New instruction: P0,1,CALC
